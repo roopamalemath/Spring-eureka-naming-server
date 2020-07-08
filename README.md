@@ -10,8 +10,8 @@ steps to be followed to register with Eureka Naming server
 1. Add a dependency in pom.xml
 
     <dependency>
-			  <groupId>org.springframework.cloud</groupId>
-			  <artifactId>spring-cloud-starter-netflix-eureka-server</artifactId>
+	<groupId>org.springframework.cloud</groupId>
+	<artifactId>spring-cloud-starter-netflix-eureka-server</artifactId>
    </dependency>
     
 2. To enable eureka naming server
@@ -38,9 +38,9 @@ steps to be followed for service discovery
 1. add a dependency
 
     <dependency>
-			  <groupId>org.springframework.cloud</groupId>
-			  <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
-		</dependency>
+	<groupId>org.springframework.cloud</groupId>
+	<artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
+    </dependency>
     
 2. To register with the naming server 
 
